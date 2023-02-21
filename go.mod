@@ -1,4 +1,4 @@
-module github.com/novarca-hnosaka/gofiber_exntend
+module github.com/novarca-hnosaka/gofiber_extend
 
 go 1.20
 

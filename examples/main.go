@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	gofiber_extend "github.com/novarca-hnosaka/gofiber_exntend"
+	gofiber_extend "github.com/novarca-hnosaka/gofiber_extend"
 	"github.com/redis/go-redis/v9"
 )
 

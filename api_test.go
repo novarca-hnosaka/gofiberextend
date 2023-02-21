@@ -3,11 +3,11 @@ package gofiber_extend_test
 import (
 	"testing"
 
-	gofiber_extend "github.com/novarca-hnosaka/gofiber_exntend"
+	ext "github.com/novarca-hnosaka/gofiber_extend"
 )
 
 func TestSimpleValidation(t *testing.T) {
-	ex := gofiber_extend.New(gofiber_extend.IFiberExConfig{})
+	ex := ext.New(ext.IFiberExConfig{})
 	err := ex.SimpleValidation("abc", "test", "match=^[a-z]+$")
 	if err != nil {
 		t.Errorf("%+v", err)
@@ -22,7 +22,7 @@ type StructTest struct {
 }
 
 func TestValidation(t *testing.T) {
-	ex := gofiber_extend.New(gofiber_extend.IFiberExConfig{})
+	ex := ext.New(ext.IFiberExConfig{})
 	src := StructTest{
 		Name:  "qwerty",
 		Email: "hoge@hoge.com",

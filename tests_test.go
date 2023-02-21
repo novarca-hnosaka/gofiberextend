@@ -8,7 +8,7 @@ import (
 
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/gofiber/fiber/v2"
-	ext "github.com/novarca-hnosaka/gofiber_exntend"
+	ext "github.com/novarca-hnosaka/gofiber_extend"
 	"github.com/redis/go-redis/v9"
 )
 

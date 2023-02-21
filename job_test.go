@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/jrallison/go-workers"
-	ext "github.com/novarca-hnosaka/gofiber_exntend"
+	ext "github.com/novarca-hnosaka/gofiber_extend"
 	"github.com/redis/go-redis/v9"
 )
 
